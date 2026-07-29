@@ -4,6 +4,17 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Poppins", system-ui, sans-serif;
+  --color-forest: #355e3b;
+  --color-forest-deep: #244028;
+  --color-olive: #6e8b3d;
+  --color-sage: #dce8d5;
+  --color-cream: #fafaf7;
+  --color-charcoal: #2e2e2e;
+}
+
 /*
  * Design system definition.
  *
@@ -63,25 +74,25 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --background: #fafaf7;
+  --foreground: #2e2e2e;
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: #2e2e2e;
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --popover-foreground: #2e2e2e;
+  --primary: #355e3b;
+  --primary-foreground: #fafaf7;
+  --secondary: #dce8d5;
+  --secondary-foreground: #244028;
+  --muted: #eef2ea;
+  --muted-foreground: #5a6b5a;
+  --accent: #6e8b3d;
+  --accent-foreground: #fafaf7;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
+  --border: #e6ead f;
+  --input: #e6eadf;
+  --ring: #6e8b3d;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
