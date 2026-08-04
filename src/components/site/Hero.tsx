@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Star, Images } from "lucide-react";
+import { Star, Images } from "lucide-react";
 import hero from "@/assets/hero.jpg";
 
 export function Hero() {
@@ -35,13 +35,6 @@ export function Hero() {
             homeowners create and maintain beautiful green spaces.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
-            <a
-              href="#contact"
-              className="group inline-flex items-center gap-2 rounded-full bg-cream px-6 py-3.5 text-sm font-semibold text-forest-deep shadow-lg hover:bg-sage transition-colors"
-            >
-              Get a Free Consultation
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </a>
             <a
               href="#gallery"
               className="inline-flex items-center gap-2 rounded-full border border-cream/40 px-6 py-3.5 text-sm font-semibold text-cream hover:bg-cream/10 transition-colors"
