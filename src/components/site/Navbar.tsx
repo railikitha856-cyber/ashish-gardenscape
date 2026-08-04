@@ -56,12 +56,6 @@ export function Navbar() {
           ))}
         </ul>
 
-        <a
-          href="#contact"
-          className="hidden lg:inline-flex items-center rounded-full bg-forest px-5 py-2.5 text-sm font-semibold text-cream shadow-sm hover:bg-forest-deep transition-colors"
-        >
-          Free Consultation
-        </a>
 
         <button
           aria-label="Toggle menu"
@@ -92,15 +86,6 @@ export function Navbar() {
                   </a>
                 </li>
               ))}
-              <li className="p-2">
-                <a
-                  href="#contact"
-                  onClick={() => setOpen(false)}
-                  className="block rounded-xl bg-forest px-4 py-3 text-center text-sm font-semibold text-cream"
-                >
-                  Free Consultation
-                </a>
-              </li>
             </ul>
           </motion.div>
         )}
