@@ -23,7 +23,7 @@ export function Hero() {
         >
           <span className="inline-flex items-center gap-2 rounded-full bg-cream/15 px-4 py-1.5 text-xs font-medium text-cream backdrop-blur-sm ring-1 ring-cream/25">
             <Star className="h-3.5 w-3.5 fill-current text-[#f5c26b]" />
-            4.9/5 on Google · 80+ Reviews
+            4.9/5 on Google · 90+ Reviews
           </span>
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] tracking-tight text-cream sm:text-6xl md:text-7xl">
             Beautiful Gardens,
