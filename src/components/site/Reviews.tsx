@@ -29,7 +29,7 @@ export function Reviews() {
             {[...Array(5)].map((_, k) => (
               <Star key={k} className="h-5 w-5 fill-[#f5c26b] text-[#f5c26b]" />
             ))}
-            <span className="ml-2 text-sm font-medium text-charcoal/70">4.9 · 80+ Google Reviews</span>
+            <span className="ml-2 text-sm font-medium text-charcoal/70">4.9 · 90+ Google Reviews</span>
           </div>
         </div>
 
